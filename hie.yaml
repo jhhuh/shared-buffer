@@ -1,0 +1,6 @@
+cradle:
+  cabal:
+    - path: "./tests/TestSuite.hs"
+      component: "test:shared-buffer"
+    - path: "./src"
+      component: "lib:shared-buffer"
